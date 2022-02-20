@@ -1,1 +1,5 @@
 /express-react-ssr/node_modules/*
+/next-test/node_modules/*
+/next-test/.next/*
+/node_modules/*
+node_modules

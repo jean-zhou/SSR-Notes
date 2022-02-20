@@ -6,8 +6,8 @@ import { renderToString, renderToStaticMarkup } from 'react-dom/server';
 const app = express();
 app.get('/', (req, res) => {
   const arr = [1, 2, 3,];
-  // const html = renderToString(<App list={arr} />)
-  const html = renderToStaticMarkup(<App list={arr} />)
+  const html = renderToString(<App list={arr} />)
+  // const html = renderToStaticMarkup(<App list={arr} />)
 
   res.send(html);
 })
