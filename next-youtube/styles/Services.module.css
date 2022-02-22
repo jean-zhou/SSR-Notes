@@ -65,3 +65,9 @@
 .service:hover .desc {
   opacity: 1;
 }
+
+.service:last-child {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
