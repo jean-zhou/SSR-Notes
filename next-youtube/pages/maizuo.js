@@ -1,18 +1,18 @@
 import axios from 'axios';
 
 export default function Maizuo({ films }) {
-  console.log('films', films);
+  // console.log('films', films);
   return (
     <div>
       <h2>电影</h2>
       <ul>
         {
-          films.map(film => {
-            return <li key={film.filmId}>
+          films.map(film => (
+            <li key={film.filmId}>
               {film.name}
               <img src={film.poster}></img>
             </li>
-          })
+          ))
         }
       </ul>
     </div>
