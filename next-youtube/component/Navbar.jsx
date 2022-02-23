@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href='/products/photography'>PHOTOGRAPY</a>
         </li>
         <li className={styles.listItem}>
-          <a href='/products/contact'>CONTACT</a>
+          <a href='/contact'>CONTACT</a>
         </li>
       </ul>
     </div>
