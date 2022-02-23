@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.cardL {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgContatiner {
+  width: 30%;
+  margin: 5px;
+}
+
+
+.cardS {
+  flex: 1;
+}
+
+.imgContatiner:nth-child(3) {
+  border-top-right-radius: 50%;
+  overflow: hidden;
+}
+
+.imgContatiner:first-child {
+  border-top-left-radius: 50%;
+  overflow: hidden;
+}
+
+.imgContatiner:last-child {
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 60px;
+  word-break: break-all;
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
