@@ -48,3 +48,12 @@
 
 }
 
+@media screen and (max-width: 480px) {
+  .form {
+    width: 99%;
+  }
+
+  .inputS:first-child {
+    margin-right: 0;
+  }
+}
